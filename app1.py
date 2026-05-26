@@ -43,10 +43,10 @@ body::before {
 
 .game-over {
     font-family: 'Press Start 2P', cursive;
-    font-size: 90px;
+    font-size: 80px;
     text-align: center;
     margin-top: 150px;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
 }
 
 /* EACH LETTER DIFFERENT COLOR */
