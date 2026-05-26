@@ -64,7 +64,7 @@ body::before {
     -webkit-text-fill-color: transparent;
 
     animation:
-    #     glow 1.5s ease-in-out infinite alternate,
+         glow 1.5s ease-in-out infinite alternate,
          rainbow 6s linear infinite;
 }
 
