@@ -113,7 +113,7 @@ st.markdown("""
     GAME OVER
 </div>
 <div class="text">
-    🙏🙏🙏🙏 Vielen Dank, Insa! 🙏🙏🙏🙏 <br><br>
+    🙏 Hallo, Insa! 🙏 <br><br>
     🕹️🕹️🕹️Das ist der Tattoo, den ich gesagt habe, dass ich codieren werde.🕹️🕹️🕹️
 </div>
 
