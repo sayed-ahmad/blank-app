@@ -46,7 +46,6 @@ body::before {
     font-size: 80px;
     text-align: center;
     margin-top: 150px;
-    letter-spacing: 2px;
 }
 
 /* EACH LETTER DIFFERENT COLOR */
