@@ -43,7 +43,7 @@ body::before {
 
 .game-over {
     font-family: 'Press Start 2P', cursive;
-    font-size: 60px;
+    font-size: 70px;
     text-align: center;
     margin-top: 150px;
 
@@ -53,8 +53,7 @@ body::before {
         yellow,
         lime,
         cyan,
-        blue,
-        red
+        blue
     );
 
     background-size: 400%;
