@@ -43,63 +43,29 @@ body::before {
 
 .game-over {
     font-family: 'Press Start 2P', cursive;
-    font-size: 70px;
+    font-size: 60px;
     text-align: center;
     margin-top: 150px;
-
-    background: linear-gradient(
-        90deg,
-        orange,
-        yellow,
-        lime,
-        cyan,
-        blue
-    );
-
-    background-size: 400%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-    animation:
-        glow 1.5s ease-in-out infinite alternate,
-        rainbow 6s linear infinite;
+    letter-spacing: 4px;
 }
 
-@keyframes glow {
-    from {
-        text-shadow:
-            0 0 10px red,
-            0 0 20px red,
-            0 0 40px red;
-    }
-
-    to {
-        text-shadow:
-            0 0 20px cyan,
-            0 0 40px cyan,
-            0 0 80px cyan;
-    }
-}
-
-@keyframes rainbow {
-    0% { background-position: 0%; }
-    100% { background-position: 400%; }
-}
+/* EACH LETTER DIFFERENT COLOR */
+.g { color: red; }
+.a { color: orange; }
+.m { color: yellow; }
+.e { color: lime; }
+.space { width: 20px; display: inline-block; }
+.o { color: cyan; }
+.v { color: blue; }
+.e2 { color: violet; }
+.r { color: pink; }
 
 .text {
     color: white;
     text-align: center;
-    font-size: 28px;
+    font-size: 24px;
     margin-top: 40px;
     font-family: Arial;
-}
-
-.blink {
-    animation: blink 1s infinite;
-}
-
-@keyframes blink {
-    50% { opacity: 0; }
 }
 
 </style>
@@ -107,7 +73,15 @@ body::before {
 
 st.markdown("""
 <div class="game-over">
-    GAME OVER
+    <span class="g">G</span>
+    <span class="a">A</span>
+    <span class="m">M</span>
+    <span class="e">E</span>
+    <span class="space"></span>
+    <span class="o">O</span>
+    <span class="v">V</span>
+    <span class="e2">E</span>
+    <span class="r">R</span>
 </div>
 
 <div class="text">
