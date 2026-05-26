@@ -114,8 +114,8 @@ st.markdown("""
 </div>
 
 <div class="text">
-    Vielen Dank Insa.<br><br>
-    Das ist der Tattoo, den ich gesagt habe, dass ich codieren werde.
+    🙏🙏🙏🙏 Vielen Dank, Insa! 🙏🙏🙏🙏 <br><br>
+    🕹️🕹️🕹️Das ist der Tattoo, den ich gesagt habe, dass ich codieren werde.🕹️🕹️🕹️
 </div>
 
 """, unsafe_allow_html=True)
