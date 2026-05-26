@@ -63,9 +63,9 @@ body::before {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
-    # animation:
+    animation:
     #     glow 1.5s ease-in-out infinite alternate,
-    #     rainbow 6s linear infinite;
+         rainbow 6s linear infinite;
 }
 
 @keyframes glow {
