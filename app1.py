@@ -43,7 +43,7 @@ body::before {
 
 .game-over {
     font-family: 'Press Start 2P', cursive;
-    font-size: 60px;
+    font-size: 90px;
     text-align: center;
     margin-top: 150px;
     letter-spacing: 4px;
