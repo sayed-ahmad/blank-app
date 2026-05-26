@@ -49,13 +49,11 @@ body::before {
 
     background: linear-gradient(
         90deg,
-        red,
         orange,
         yellow,
         lime,
         cyan,
         blue,
-        violet,
         red
     );
 
